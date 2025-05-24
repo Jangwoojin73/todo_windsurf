@@ -1,0 +1,214 @@
+{
+  "rules": [
+    {
+      "type": "task",
+      "description": "로그인 / 회원가입 페이지 HTML 작성",
+      "tags": [
+        "frontend",
+        "html"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "메인 화면 HTML (입력, 목록, 필터, 사용자명)",
+      "tags": [
+        "frontend",
+        "html"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "CSS 스타일링 (레이아웃, 버튼, 입력 필드)",
+      "tags": [
+        "frontend",
+        "css"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "JavaScript로 CRUD 이벤트 바인딩",
+      "tags": [
+        "frontend",
+        "js",
+        "crud"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "다크모드 CSS 및 테마 토글 기능",
+      "tags": [
+        "frontend",
+        "darkmode"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Node.js 프로젝트 및 Express 서버 설정",
+      "tags": [
+        "backend",
+        "nodejs",
+        "express"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Firebase Admin SDK 연동 및 API 구현",
+      "tags": [
+        "backend",
+        "firebase"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Firebase 인증 토큰 검증 미들웨어 구현",
+      "tags": [
+        "backend",
+        "auth"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Firestore 사용자별 데이터 구조 설계",
+      "tags": [
+        "backend",
+        "firestore"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Vercel용 배포 설정",
+      "tags": [
+        "deployment",
+        "vercel"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Firebase 프로젝트 생성 및 초기 설정",
+      "tags": [
+        "firebase",
+        "setup"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Authentication (이메일/비밀번호) 활성화",
+      "tags": [
+        "firebase",
+        "auth"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Firestore 및 보안 규칙 설정",
+      "tags": [
+        "firebase",
+        "rules"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Vercel 환경 변수에 Firebase 키 등록",
+      "tags": [
+        "firebase",
+        "vercel"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "회원가입 / 로그인 폼 UI 구성",
+      "tags": [
+        "ui",
+        "auth"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "할 일 입력 필드 및 추가 버튼 구성",
+      "tags": [
+        "ui",
+        "input"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "할 일 목록 UI 및 상태 표시",
+      "tags": [
+        "ui",
+        "todo"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "필터 드롭다운 구현 (전체 / 완료 / 미완료)",
+      "tags": [
+        "ui",
+        "filter"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "사용자명 표시 및 로그아웃 버튼 구현",
+      "tags": [
+        "ui",
+        "user"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "다크모드 전환 토글 구현",
+      "tags": [
+        "ui",
+        "darkmode"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "회원가입 성공 시 2~3초 축하 메시지 표시",
+      "tags": [
+        "feature",
+        "toast"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "완료 항목 숨기기 / 필터링 기능",
+      "tags": [
+        "feature",
+        "filter"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "다크모드 상태를 localStorage에 저장 및 유지",
+      "tags": [
+        "feature",
+        "darkmode"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "주요 기능 테스트 (로그인, CRUD, 필터)",
+      "tags": [
+        "test",
+        "e2e"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Firebase 로컬 에뮬레이터 테스트 (선택 사항)",
+      "tags": [
+        "test",
+        "firebase"
+      ]
+    },
+    {
+      "type": "task",
+      "description": "Vercel에 최종 배포 및 점검",
+      "tags": [
+        "deployment",
+        "vercel"
+      ]
+    }
+  ]
+}

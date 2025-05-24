@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // 페이지 로드 시 디버깅 정보
+        console.log('index.html 페이지 로드 시작');
+        window.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM이 완전히 로드됨');
+        });
+    </script>
+    <style>
+        /* 인라인 스타일 추가 */
+        #user-name {
+            color: #0047AB; /* 진한 파란색 */
+            font-weight: bold;
+        }
+        
+        #logout-button {
+            background-color: #8B0000; /* 와인색 */
+            color: white;
+        }
+        
+        #add-todo-button {
+            writing-mode: horizontal-tb !important; /* 가로 방향 텍스트 */
+        }
+        
+        #delete-selected-button {
+            background-color: #006400; /* 진한 녹색 */
+            color: white;
+            writing-mode: horizontal-tb !important; /* 가로 방향 텍스트 */
+        }
+        
+        .todo-info {
+            display: block;
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 5px;
+            padding-top: 5px;
+            border-top: 1px dashed #eee;
+        }
+        
+        .todo-username {
+            font-weight: bold;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .todo-date {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-header">
+            <div class="app-title">
+                <h1>TODO APP</h1>
+            </div>
+            <div class="user-info">
+                <span id="user-name">사용자</span>
+                <button id="logout-button" class="btn btn-small">로그아웃</button>
+                <button id="theme-toggle" class="theme-toggle">🌙</button>
+            </div>
+        </div>
+
+        <div class="todo-input-container">
+            <input type="text" id="todo-input" placeholder="할 일을 입력하세요">
+            <button id="add-todo-button" class="btn btn-primary">추가</button>
+        </div>
+
+        <div class="todo-filters">
+            <select id="filter-select">
+                <option value="all">모든 항목</option>
+                <option value="active">미완료 항목</option>
+                <option value="completed">완료 항목</option>
+            </select>
+            <button id="delete-selected-button" class="btn btn-small">선택항목 삭제</button>
+        </div>
+
+        <div id="todo-list" class="todo-list">
+            <!-- 할 일 항목들이 여기에 동적으로 추가됩니다 -->
+        </div>
+
+        <div class="todo-stats">
+            <span id="items-left">0개 항목 남음</span>
+        </div>
+    </div>
+
+    <template id="todo-item-template">
+        <div class="todo-item">
+            <div class="todo-item-content">
+                <input type="checkbox" class="todo-checkbox">
+                <span class="todo-text"></span>
+            </div>
+            <div class="todo-item-actions">
+                <button class="todo-edit-btn">수정</button>
+                <button class="todo-delete-btn">삭제</button>
+            </div>
+        </div>
+    </template>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
